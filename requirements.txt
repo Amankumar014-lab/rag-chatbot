@@ -1,0 +1,23 @@
+# Core ML/AI
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# Web Interface
+gradio>=4.0.0
+
+# Document Processing
+pypdf>=3.0.0
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional Performance (for GPU acceleration)
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
